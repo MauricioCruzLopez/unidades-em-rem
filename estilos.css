@@ -1,47 +1,48 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-	background: #f2f2f2;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px; /*16px*/
 }
-
 .contenedor {
-	background: #550a46;
-	color: #fff;
-	width: 90%;
-	max-width: 800px;
-	margin: 29.92px auto;
-	padding: 29.92px;
-	border-radius: 10px;
+  background: #550a46;
+  color: #fff;
+  width: 90%;
+  max-width: 50em; /*800px*/
+  margin: 1.87em auto; /*29.92px*/
+  padding: 1.87em; /*29.92px*/
+  border-radius: 10px;
+  font-size: 1rem;
 }
-
 .contenedor h1 {
-	color: #f8b400;
-	margin-bottom: 20px;
-	font-family: 'Merriweather', serif;
-	font-weight: normal;
-	font-size: 32px;
+  color: #f8b400;
+  margin-bottom: 1.25rem; /*20px*/
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 2em; /*32px*/
 }
-
 .contenedor p {
-	line-height: 200%;
-	margin-bottom: 20px;
-	font-size: 16px;
+  line-height: 200%;
+  margin-bottom: 1.25em; /*20px*/
+  font-size: 1em; /*16px*/
 }
-
 .contenedor button {
-	font-size: 1rem;
-	display: inline-block;
-	padding: 10px 20px;
-	font-family: 'Open Sans', sans-serif;
-	border: none;
-	cursor: pointer;
-	background: #617be3;
-	color: #fff;
-	border-radius: 100px;
+  font-size: 1em;
+  display: inline-block;
+  padding: 0.625em 1.25em; /*10px 20px*/
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+  background: #617be3;
+  color: #fff;
+  border-radius: 100px;
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 11px;
+  }
 }
